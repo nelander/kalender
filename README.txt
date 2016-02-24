@@ -6,10 +6,11 @@ muessen ".jpg" sein. Ausserdem muessen alle Dateinamen klein geschrieben sein.
 Z.B. kalender01.jpg, kalender02.jpg, ....
 
 Hinweis!
-Fuer eine gute Ausgabe, sollten die Bilder in ein einheitliches und eine fuer dem 
-Bildschirm passende Groesse abgespeichert werden. Dafuer gut geeignet ist IrfanView 
-(File / Batch Conversion... / Advanced / Resize / Set long side to ...). Dabei bekommen
-alle Bilder fuer die lange Seite eine einheitlich Laenge (z.B. 500 Pixel).
+Fuer eine gute Ausgabe, sollten die Bilder in ein einheitliches und in eine fuer dem 
+Bildschirm passenden Groesse abgespeichert sein. Dafuer gut geeignet ist das Windows-
+Programm IrfanView (Benutze dabi: File / Batch Conversion... / Advanced / Resize / 
+Set long side to ...). Dabei bekommen alle Bilder fuer die lange Seite eine einheitliche
+Laenge (z.B. 500 Pixel, wie auf meinem Homepage).
 
 kalender.php
 ------------
