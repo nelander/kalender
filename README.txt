@@ -1,8 +1,8 @@
 PHP-Projekt "kalender"
 
 Im Projekt-Verzeichnis werden 12 Bilder in jpg-Format abgelegt, die anzuzeigen sind.
-Wichtig! Die Dateiendung muss ".jpg" sein (klein geschrieben) und die ersten 8 Stellen
-der Dateinamen muessen "kalender" sein (klein geschrieben).
+Wichtig! Die Dateiendung muss ".jpg" sein (Achtung! Die Dateiname muss klein geschrieben
+sein!) und die ersten 8 Stellen der Dateinamen muessen "kalender" sein (klein geschrieben).
 Z.B. kalender01.jpg, kalender02.jpg, ....
 
 Hinweis!
