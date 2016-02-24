@@ -8,7 +8,7 @@ Z.B. kalender01.jpg, kalender02.jpg, ....
 Hinweis!
 Fuer eine gute Ausgabe, sollten die Bilder in ein einheitliches und in eine fuer dem 
 Bildschirm passenden Groesse abgespeichert sein. Dafuer gut geeignet ist das Windows-
-Programm IrfanView (Benutze dabi: File / Batch Conversion... / Advanced / Resize / 
+Programm IrfanView (Benutze dabei:  File / Batch Conversion... / Advanced / Resize / 
 Set long side to ...). Dabei bekommen alle Bilder fuer die lange Seite eine einheitliche
 Laenge (z.B. 500 Pixel, wie auf meinem Homepage).
 
