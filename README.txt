@@ -1,8 +1,8 @@
 PHP-Projekt "kalender"
 
 Im Projekt-Verzeichnis werden 12 Bilder in jpg-Format abgelegt, die anzuzeigen sind.
-Wichtig! Die Dateiendung muss ".jpg" sein (Achtung! Die Dateiname muss klein geschrieben
-sein!) und die ersten 8 Stellen der Dateinamen muessen "kalender" sein (klein geschrieben).
+Wichtig! Die ersten 8 Stellen der Dateinamen muessen "kalender" sein und Dateiendungen 
+muessen ".jpg" sein. Ausserdem muessen alle Dateinamen klein geschrieben sein.
 Z.B. kalender01.jpg, kalender02.jpg, ....
 
 Hinweis!
@@ -19,7 +19,7 @@ das zweite Bild im Monat Februar, etc. Es wird z.B. in Januar das Bild kalender0
 in Februar das Bild kalender02.jpg angezeigt, u.s.w.
 
 Ausserdem wird Datum, Uhrzeit, Monatsname und die fuer den Tag passenden Eintraege aus der 
-Tabelle 'kalender' ausgegeben. Das können Geburtstage, Feiertage und sonstige Eintraege sein.
+Tabelle 'kalender' ausgegeben. Das kÃ¶nnen Geburtstage, Feiertage und sonstige Eintraege sein.
 
 kalender_pflege.php
 -------------------
