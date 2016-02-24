@@ -9,7 +9,7 @@
   body {
    font-family: Verdana, Sans-Serif;
    font-size: 14px;
-  }
+   }
 
   form {
    background: #94D7F8;
