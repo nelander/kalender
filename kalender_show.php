@@ -1,3 +1,21 @@
+<!DOCTYPE html>
+<html lang="de">
+ <head>
+  <meta charset="UTF-8">
+  <title>Webcam erfassen</title>
+
+  <style>
+  body {
+   background: #94D7F8;
+   font-family: Verdana, Sans-Serif;
+   font-size: 14px;
+   }
+
+  </style>
+
+ </head>
+<body>
+
 <?php
 $monate = array(
 		"Januar",
@@ -61,3 +79,6 @@ $jahr = date("Y");
 echo "</font>";
 echo "<p><font size=\"1\" face=\"Arial\">&copy; Bengt Nelander " . $jahr . "</font></p>";
 ?>
+
+</body>
+</html>
