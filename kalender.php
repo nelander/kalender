@@ -55,13 +55,15 @@
     	{
     		while (($file = readdir($handle)) !== false)
     		{
+    			// Alle Dateinamen muessen lower case sein
+    			$lowfile = strtolower($file);
     			// Test, ob ein File kalender___.jpg vorliegt
-    			if ( filetype( $file) == "file"
-    					AND substr( $file, 0, 8 ) == "kalender"
-    					AND substr( $file, -4 ) == ".jpg" )
+    			if ( filetype( $lowfile) == "file"
+    					AND substr( $lowfile, 0, 8 ) == "kalender"
+    					AND substr( $lowfile, -4 ) == ".jpg" )
     			{
     				// Dateiname wird im Array gespeichert
-    				$bilderdateinamen[] = $file;
+    				$bilderdateinamen[] = $lowfile;
     			}
     		}
     		closedir($handle);
