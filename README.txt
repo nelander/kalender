@@ -20,13 +20,13 @@ das zweite Bild im Monat Februar, etc. Es wird z.B. in Januar das Bild kalender0
 in Februar das Bild kalender02.jpg angezeigt, u.s.w.
 
 Ausserdem wird Datum, Uhrzeit, Monatsname und die fuer den Tag passenden Eintraege aus der 
-Tabelle 'kalender' ausgegeben. Das können Geburtstage, Feiertage und sonstige Eintraege sein.
+Tabelle 'kalender' ausgegeben. Das koennen Geburtstage, Feiertage und sonstige Eintraege sein.
 
 kalender_pflege.php
 -------------------
 Das Programm listet alle Kalendereintraege auf und bietet die Loeschung bzw. Aenderung
 der einzelnen Eintraege an. Ausserdem bietet es ein Link an das Programm zur Erfassung 
-eines neuen Kalendereintrags.
+eines neuen Kalendereintrags bzw. die Anzeige aller Kalenderbilder.
 
 kalender_insert.php
 -------------------
