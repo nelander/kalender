@@ -2,7 +2,7 @@
 	//
 	// Konstanten fuer den MySQL-Server und die Zugangsdaten
 	//
-	require_once 'Zugangsdaten.php';
+	require_once '../Zugangsdaten.php';
 	//
 	// Konstanten fuer die Monate und Wochentage
 	//
@@ -47,7 +47,7 @@
     // Alle jpg-files die mit "kalender" beginnen aus dem Verzeichnis
 	// auslesen und in den Array $bilderdateinamen abspeichern
 	//
-    $verzeichnis = ".";
+    $verzeichnis = "../bilder/";
     
     if (is_dir($verzeichnis))
     {
@@ -57,13 +57,14 @@
     		{
     			// Alle Dateinamen muessen lower case sein
     			$lowfile = strtolower($file);
+    			$adrfile = $verzeichnis . $lowfile;
     			// Test, ob ein File kalender___.jpg vorliegt
-    			if ( filetype( $lowfile) == "file"
+    			if ( filetype( $adrfile) == "file"
     					AND substr( $lowfile, 0, 8 ) == "kalender"
     					AND substr( $lowfile, -4 ) == ".jpg" )
     			{
     				// Dateiname wird im Array gespeichert
-    				$bilderdateinamen[] = $lowfile;
+    				$bilderdateinamen[] = $adrfile;
     			}
     		}
     		closedir($handle);

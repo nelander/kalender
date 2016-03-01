@@ -1,8 +1,10 @@
 PHP-Projekt "kalender"
 
-Im Projekt-Verzeichnis werden 12 Bilder in jpg-Format abgelegt, die anzuzeigen sind.
-Wichtig! Die ersten 8 Stellen der Dateinamen muessen "kalender" sein und Dateiendungen 
-muessen ".jpg" sein. Z.B. kalender01.jpg, kalender02.jpg, ....
+Im Projekt-Unterverzeichnis "bilder" werden 12 Bilder in jpg-Format abgelegt, die anzuzeigen
+sind.
+
+Wichtig! Die ersten 8 Stellen der Dateinamen muessen "kalender" sein und die Dateiendungen 
+muessen ".jpg" sein. Z.B. kalender01.jpg, kalender02.jpg, ....., kalender12.jpg
 
 Hinweis!
 Fuer eine gute Ausgabe, sollten die Bilder in ein einheitliches und in eine fuer dem 
@@ -13,8 +15,8 @@ Laenge (z.B. 500 Pixel, wie auf meinem Homepage).
 
 kalender.php
 ------------
-Hier wird ein Bild aus der Projekt-Verzeichnis passend zum Monat ausgegeben. Die Bilder
-werden nach der Dateiname sortiert. Das erste Bild wird im Monat Januar gezeigt, 
+Hier wird ein Bild aus der Projekt-Unterverzeichnis "bilder" passend zum Monat ausgegeben. 
+Die Bilder werden nach der Dateiname sortiert. Das erste Bild wird im Monat Januar gezeigt, 
 das zweite Bild im Monat Februar, etc. Es wird z.B. in Januar das Bild kalender01.jpg und
 in Februar das Bild kalender02.jpg angezeigt, u.s.w.
 

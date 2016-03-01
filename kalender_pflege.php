@@ -24,17 +24,17 @@
  	error_reporting(0); // (0/1)
 
 	// Sprungadressen
-	$Ruecksprung = "index.php";
-	$Loeschen    = "kalender_delete.php";
-	$Aendern     = "kalender_update.php";
-	$Erfassen	 = "kalender_insert.php";
-	$Bilderzeigen= "kalender_show.php";
+	$Ruecksprung = "../privat/index.php";
+	$Loeschen    = "../kalender/kalender_delete.php";
+	$Aendern     = "../kalender/kalender_update.php";
+	$Erfassen	 = "../kalender/kalender_insert.php";
+	$Bilderzeigen= "../kalender/kalender_show.php";
 	
 	// Heading
 	echo "<h3>Kalendereintr&auml;ge anzeigen und pflegen</h3>";
 	
 	// Zugangsdaten der MySQL-Datenbank
-	require_once 'Zugangsdaten.php';
+	require_once '../Zugangsdaten.php';
 	
 	// Verbindungsaufbau mit der der MySQL-Datenbank
 	$db = new MySQLi($db_server, $db_benutzer, $db_passwort, $db_name);
@@ -92,10 +92,10 @@
 	echo '<p><a href="' . $Bilderzeigen . '">Kalenderbilder anzeigen</a></p>';
 	
 	// Link zur Erfassungsmaske
-	echo '<p><a href="' . $Erfassen . '">Neuer Kalendereintrag erfassen</a></p>';
+	echo '<p><a href="' . $Erfassen     . '">Neuer Kalendereintrag erfassen</a></p>';
 	
 	// Ruecksprung
-	echo '<p><a href="' . $Ruecksprung . '">Zur&uuml;ck</a></p>';
+	echo '<p><a href="' . $Ruecksprung  . '">Zur&uuml;ck</a></p>';
 	?>
 
 	</body>

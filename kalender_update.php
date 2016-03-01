@@ -15,14 +15,14 @@
 	<?php
 	//
 	// Kalendereintragung aus der MySQL-Datenbanktabelle 'kalender' aendern
-	// Aufruf: ..../kalender_update.php?id=<id>   (<id> steht fuer das kalender_id)
+	// Aufruf: ..../kalender/kalender_update.php?id=<id>   (<id> steht fuer das kalender_id)
 	//
 	
 	// PHP Fehlermeldungen (1 um das Formular zu testen) anzeigen.
  	error_reporting(0); // (0/1)
 
 	// Sprungadressen
-	$Ruecksprung = "kalender_pflege.php";
+	$Ruecksprung = "../kalender/kalender_pflege.php";
 	
 	// Parameter "id" auslesen
 	$id = $_GET["id"];

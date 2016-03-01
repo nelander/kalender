@@ -10,7 +10,6 @@
    font-family: Verdana, Sans-Serif;
    font-size: 14px;
    }
-
   </style>
 
  </head>
@@ -35,20 +34,24 @@ echo "<font size=\"5\" face=\"Arial\">";
 // Alle jpg-files die mit 'kalender' beginnen aus dem Verzeichnis    
 // auslesen und in den Array $bilderdateinamen abspeichern  
 //
-$verzeichnis = ".";
+$verzeichnis = "../bilder/";
+
 if (is_dir($verzeichnis))
 {
     if ( $handle = opendir($verzeichnis) )
     {
         while (($file = readdir($handle)) !== false)
-        {
+        {   
+        	// Alle Dateinamen muessen lower case sein
+        	$lowfile = strtolower($file);
+        	$adrfile = $verzeichnis . $lowfile;
             // Pruefe, ob ein File kalender___.jpg vorliegt
-            if ( filetype( $file) == "file"
-    			AND substr( $file, 0, 8 ) == "kalender"
-    			AND substr( $file, -4 ) == ".jpg" )
+            if ( filetype( $adrfile) == "file"
+    			AND substr( $lowfile, 0, 8 ) == "kalender"
+    			AND substr( $lowfile, -4 ) == ".jpg" )
             {
                 // Dateiname wird im Array gespeichert
-                $bilderdateinamen[] = $file;
+                $bilderdateinamen[] = $adrfile;
             }
         }
         closedir($handle);

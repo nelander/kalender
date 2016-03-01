@@ -45,7 +45,7 @@ error_reporting(0); // (0/1)
 
 // Ruecksprung - Nach dem absenden des Formulars,
 // gelangt der Benutzer über einen Link auf folgende Seite:
-$Ruecksprung = "kalender_pflege.php";
+$Ruecksprung = "../kalender/kalender_pflege.php";
 
 // Anzahl Tage pro Monat
 $checkTage30 = array (4, 6, 9, 11);
@@ -147,7 +147,7 @@ if (isset($_POST["speichern_x"])) {
  if (implode("", $Fehler) == "") {
 
   // Verbindungsdaten fuer die MySQL-Datenbank
-  require_once 'Zugangsdaten.php';
+  require_once '../Zugangsdaten.php';
 
   // Verbindungsaufbau mit der Datenban
   $db = new MySQLi($db_server, $db_benutzer, $db_passwort, $db_name);
