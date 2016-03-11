@@ -38,10 +38,10 @@
     $monat     	= date("n",$timestamp);		// Nummer des Monats
     $tag		= date("j",$timestamp);		// Tag des Monats
     $wochentag 	= date("w",$timestamp);		// Wochentag (0=Sonntag)
-    
-    echo "<font size=\"5\">";
-    echo $tage[$wochentag] . "&nbsp;&nbsp;" . 
-    	 $datum . "&nbsp;&nbsp;" . $uhrzeit; 
+
+//  Derzeit kein Datum und Uhrzeit ausgeben, da dies inzwischen im html von ein JavaScript ausgegeben wird
+//  echo $tage[$wochentag] . "&nbsp;&nbsp;" . 
+//    	 $datum . "&nbsp;&nbsp;" . $uhrzeit; 
     
     //
     // Alle jpg-files die mit "kalender" beginnen aus dem Verzeichnis
@@ -84,7 +84,6 @@
     echo "<img src=\"$bilderdateinamen[$n]\" " . 
     	 $exif['COMPUTED']['html'] . ' > ';
     echo "<br />\n $monate[$monat]";
-    echo "</font>";
     
     //
     // Hier werden Geburtstage, Feiertage, etc. furr den aktuellen Tag aus
